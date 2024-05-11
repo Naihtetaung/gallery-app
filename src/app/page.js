@@ -1,11 +1,10 @@
 'use client'
 import Link from "next/link"
-import profileEg from "/public/profileEg.jpeg"
 import steal from "/public/steal.jpg"
 import blue from "/public/blue.jpeg"
 import sadgf from "/public/sadgf.jpg"
 import photo1 from "/public/photo1.jpg"
-import photo11 from "/public/photo2.jpg"
+import photo11 from "/public/photo11.jpg"
 import photo3 from "/public/photo3.jpeg"
 import photo4 from "/public/photo4.jpeg"
 import photo5 from "/public/photo5.jpg"
