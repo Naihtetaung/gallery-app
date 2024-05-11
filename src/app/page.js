@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Link from "next/link"
 import steal from "/public/steal.jpg"
 import blue from "/public/blue.jpeg"
@@ -19,12 +19,12 @@ import "@/styles/styles.css";
 
 export default function Homet() {
   const scrollToSession = () => {
-    const sessionDiv = document.getElementById('memory');
-    sessionDiv.scrollIntoView({ behavior: 'smooth' });
+    const sessionDiv = document.getElementById("memory");
+    sessionDiv.scrollIntoView({ behavior: "smooth" });
   }
   const scrollToPlaylist = () => {
-    const sessionDiv = document.getElementById('playlist');
-    sessionDiv.scrollIntoView({ behavior: 'smooth' });
+    const sessionDiv = document.getElementById("playlist");
+    sessionDiv.scrollIntoView({ behavior: "smooth"});
   }
   return (
     <main className="flex flex-col items-center justify-center w-full min-h-screen bg-[#F5F5F5] dark:bg-[#1A1A1A] text-[#333] dark:text-[#F5F5F5] font-['Montserrat', 'sans-serif']">
